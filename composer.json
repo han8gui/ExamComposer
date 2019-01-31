@@ -1,0 +1,20 @@
+{
+    "name": "han8gui/package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "han8gui",
+            "email": "han8gui@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "han8gui\\package\\": "src/han8gui/package"
+        }
+    }
+}
